@@ -1,0 +1,10 @@
+#
+# Command Message from Pixhawk to PHM device.
+#  
+#
+
+# Mode enumerations
+uint8 PHM_ON            = 0     # Fault detection is on
+uint8 PHM_OFF           = 255   # Fault detection is off
+
+uint8 phm_mode_cmd # Mode command to PHM
