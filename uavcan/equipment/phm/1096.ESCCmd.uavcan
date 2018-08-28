@@ -1,0 +1,12 @@
+#
+# Group of 3 Raw ESC Commands
+#
+
+# Index of the first ESC in the cmd array
+uint8 primary_esc_index
+
+# Raw ESC command.
+# Non-zero setpoint value below minimum should be interpreted as min valid setpoint for the given motor.
+# Negative values indicate reverse rotation.
+
+int16[<=3] cmd
