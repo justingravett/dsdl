@@ -4,10 +4,10 @@
 
 # Status enumerations
 uint8 PHM_NOMINAL       = 0
-uint8 PHM_WARNING       = 1
-uint8 PHM_LOITER        = 2
-uint8 PHM_RETURN_HOME   = 3
-uint8 PHM_LAND_ASAP     = 4
+uint8 PHM_LOG_FAULT     = 1
+uint8 PHM_WARNING       = 2
+uint8 PHM_LOITER        = 3
+uint8 PHM_RETURN_HOME   = 4
 uint8 PHM_LAND_NOW      = 5
 uint8 PHM_KILL_MOTORS   = 6
 
